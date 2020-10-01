@@ -3,7 +3,7 @@ from math import log2
 #відкриваю два файли, обива на читання
 ftext = open('ftext(utf8).txt','r',encoding='utf8')
 fwstext = open('fwstext(utf8).txt','r',encoding='utf8')
-results = open('results.txt','w',encoding='utf8')
+results = open('results.txt','a',encoding='utf8')
 
 qa_letters = {'а':0, 'б':0, 'в':0, 'г':0, 'д':0, 'е':0, 'ж':0, 'з':0,
               'и':0, 'й':0, 'к':0, 'л':0, 'м':0, 'н':0, 'о':0, 'п':0,
