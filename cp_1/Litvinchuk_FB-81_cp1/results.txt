@@ -862,7 +862,7 @@ Table of frequencies:
  яя <0.00005>
 
 Entropy:  7.833584364570766
-Redundancy:  -0.5667168729141532
+Redundancy:  0.2166415635429234
 
 
 
@@ -1726,7 +1726,7 @@ Table of frequencies:
  яя <0.00015>
 
 Entropy:  8.240880987322724
-Redundancy:  -0.6634142999228851
+Redundancy:  0.16829285003855743
 
 
 
@@ -2489,7 +2489,7 @@ Table of frequencies:
  яя <0.00005>
 
 Entropy:  7.833389009514412
-Redundancy:  -0.5666778019028824
+Redundancy:  0.2166610990485588
 
 
 
@@ -3344,4 +3344,4 @@ Table of frequencies:
  яя <0.00016>
 
 Entropy:  8.240381544939277
-Redundancy:  -0.6633134879339859
+Redundancy:  0.16834325603300704
