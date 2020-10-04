@@ -19,9 +19,9 @@ entr = 0
 entr_ws = 0
 
 def redundancy():
-	return 1 - (entr/log2(32))
+	return 1 - (entr/log2(32*32))
 def redundancy_ws():
-	return 1 - (entr_ws/log2(31)) 
+	return 1 - (entr_ws/log2(31*31)) 
 
 def count_each_bigr():
 	for i in range(0, len(ftext)- 2, step):
