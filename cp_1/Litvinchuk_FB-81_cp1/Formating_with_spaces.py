@@ -11,7 +11,8 @@ temp = ''
 for line in text:
 	i=0
 	# на цьому кроці я замінюю будь-які символи що НЕ є російськими буквами на пробіли
-	newline = re.sub(r"[^а-яА-Яё]+"," ",line)
+	newline = re.sub(r"[^а-яА-ЯёЁ]+"," ",line)
+	newline = newline.lower()
 	# виконую заміну символів ё на е, ъ на ь
 	for symbol in newline:
 		if symbol == "ё":
@@ -25,7 +26,7 @@ for line in text:
 	# якщо newline не пустий рядок, то додаю до temp + ' '
 	# якщо newline пустий, то не роблю нічого, так як може добавитись лишній пробіл
 	if len(newline)!=0:
-		temp += newline.lower() + ' '
+		temp += newline + ' '
 ftext.write(temp)
 
 #закриваю файли

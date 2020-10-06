@@ -59,20 +59,22 @@ def entr_ws_():
 		global entr_ws
 		entr_ws += value_inner * log2(1 / value_inner)
 
+
 count_each_bigr()
 count_each_bigr_ws()
 fr_bigr_()
 fr_bigr_ws_()
 entr_()
 entr_ws_()
-
+entr = entr/2
+entr_ws = entr_ws/2
 
 results.write('\n\n\nBIGRAMS(STEP - ' + str(step) + '), their frequencies, entropy, redundancy for text with space:\n')
 results.write('Table of frequencies:\n')
 temp = list(qa_bigr.keys())
 temp.sort()
 for key in temp:
-    results.write("{:^4}<{:^.5f}>\n".format(key, fr_bigr[key]))
+    results.write("{:^4}{:^.5f}\n".format(key, fr_bigr[key]))
 red = redundancy()
 results.write('\nEntropy:  '+ str(entr) + '\n')
 results.write('Redundancy:  '+ str(red) + '\n')
@@ -82,7 +84,7 @@ results.write('Table of frequencies:\n')
 temp_ws = list(qa_bigr_ws.keys())
 temp_ws.sort()
 for key in temp_ws:
-    results.write("{:^4}<{:^.5f}>\n".format(key, fr_bigr_ws[key]))
+    results.write("{:^4}{:^.5f}\n".format(key, fr_bigr_ws[key]))
 red_ws = redundancy_ws()
 results.write('\nEntropy:  '+ str(entr_ws) + '\n')
 results.write('Redundancy:  '+ str(red_ws) + '\n')
