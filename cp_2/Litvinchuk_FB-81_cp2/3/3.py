@@ -146,8 +146,12 @@ for i in range(0,rr):
 VT=''.join(decode_val(full_decode(encode_val(temp),encode_val(tempkey))))
 
 
+
 r = open('results.txt','a',encoding='utf8')
-r.write("KEY : "+str(tempkey)+'\n\n')
+r.write('Index teor'+str(index_teor)+'\n')
+for i in range(2,r_max):
+	r.write(str(i)+' - '+str(indexes[i])+'\n')
+r.write("KEY : "+str(tempkey)+'\n')
 r.write("OPEN TEXT : \n")
 r.write(VT)
 r.close()
