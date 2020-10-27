@@ -99,7 +99,7 @@ blocks= defaultdict(list)
 indexes = defaultdict(list)
 indexes_sycypn = {} 
 indexes_minus = {}
-index_teor = 0.0553
+index_teor = 0.05539331456786139
 id_s=0
 r_max=32
 
@@ -148,10 +148,26 @@ VT=''.join(decode_val(full_decode(encode_val(temp),encode_val(tempkey))))
 
 
 r = open('results.txt','a',encoding='utf8')
-r.write('Index teor'+str(index_teor)+'\n')
+ot = open('OT.txt','a',encoding='utf8')
+r.write("INDEXES (SER): \n")
 for i in range(2,r_max):
-	r.write(str(i)+' - '+str(indexes[i])+'\n')
-r.write("KEY : "+str(tempkey)+'\n')
+	r.write(str(i)+' - '+str(indexes_sycypn[i])+'\n')
+r.write("\nKEY : "+str(tempkey)+'\n')
 r.write("OPEN TEXT : \n")
 r.write(VT)
 r.close()
+
+
+tempkey='венецианскийкупец'
+VT=''.join(decode_val(full_decode(encode_val(temp),encode_val(tempkey))))
+ot.write(VT)
+blocks= defaultdict(list)
+for i in range(0,rr):
+	b=''
+	for n in range(i,len(VT),rr):
+		b+=VT[n]
+	blocks[rr].append(b)
+
+ot.write("\nFR of 15 block: "+ str(fr_letters_(str(blocks[17][14]))))
+ot.write("\nFR of 16 block: "+ str(fr_letters_(str(blocks[17][15]))))
+ot.close()

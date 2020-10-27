@@ -4,13 +4,11 @@ text = open('text.txt','r',encoding='utf8')
 ftext = open('ftext.txt','w',encoding='utf8')
 
 temp = ''
-
 for line in text:
-	line = re.sub(r"[^a-zA-Z]+"," ",line)
-	newline = line.replace(' ','')
-	temp += newline
+	line = re.sub(r"[^а-яА-Я]+","",line)
+	temp+=line
 
-temp = temp.upper()
+temp = temp.lower()
 #temp - відредагований ВТ
 ftext.write(temp)
 text.close()
@@ -18,21 +16,17 @@ ftext.close()
 
 
 #cтворюю словник для всіх символів
-def form_dict():
-	d={}
-	iter=0
-	for i in range(65,91):
-		d[iter]=chr(i)
-		iter=iter+1
-	return d
+d = {0:'а', 1:'б', 2:'в', 3:'г', 4:'д', 5:'е', 6:'ж', 7:'з',
+     8:'и', 9:'й', 10:'к', 11:'л', 12:'м', 13:'н', 14:'о', 15:'п',
+     16:'р',17:'с', 18:'т', 19:'у', 20:'ф', 21:'х', 22:'ц', 23:'ч', 
+     24:'ш', 25:'щ', 26:'ъ', 27:'ы', 28:'ь', 29:'э', 30:'ю', 31:'я'}
 
-key = 'EABCQDPFHGMDBGFCFWXN'  #визначаю ключ, яким буде відбуватись шифрування
+key = 'абвгдежзиклмопрстучн'  #визначаю ключ, яким буде відбуватись шифрування
 
 #форматування тексту, де кожній літері співставляється деяке число
 def encode_val(t):
 	res=[]
 	lent=len(t)
-	d=form_dict()
 	for w in range(lent):
 		for value in d:
 			if t[w]==d[value]:
@@ -57,7 +51,6 @@ def comparator(value,key):
 def full_encode(value,key):
 	dic=comparator(value,key)
 	lis=[]
-	d=form_dict()
 	for v in dic:
 		go=((dic[v][0]+dic[v][1]) % len(d))
 		lis.append(go)
@@ -67,7 +60,6 @@ def full_encode(value,key):
 def decode_val(t):
 	res=[]
 	lent=len(t)
-	d=form_dict()
 	for w in range(lent):
 		for value in d:
 			if t[w]==value:
@@ -78,10 +70,10 @@ ST = ''.join(decode_val(full_encode(encode_val(temp),encode_val(key)))) #ШТ
 
 count=0
 def count_each_letter(t):
-	qa_letters = {'A':0, 'B':0, 'C':0, 'D':0, 'E':0, 'F':0, 'G':0, 'H':0,
-              'I':0, 'J':0, 'K':0, 'L':0, 'M':0, 'N':0, 'O':0, 'P':0,
-              'Q':0, 'R':0, 'S':0, 'T':0, 'U':0, 'V':0, 'W':0, 'X':0, 
-              'Y':0, 'Z':0} 
+	qa_letters = {'а':0, 'б':0, 'в':0, 'г':0, 'д':0, 'е':0, 'ж':0, 'з':0,
+                  'и':0, 'й':0, 'к':0, 'л':0, 'м':0, 'н':0, 'о':0, 'п':0,
+                  'р':0, 'с':0, 'т':0, 'у':0, 'ф':0, 'х':0, 'ц':0, 'ч':0, 
+                  'ш':0, 'щ':0, 'ы':0, 'ь':0, 'э':0, 'ю':0, 'я':0, 'ъ':0}  
 	for symbol in t:
 		global count
 		count += 1

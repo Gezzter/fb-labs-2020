@@ -1,56 +1,36 @@
-“Well, Prince, so Genoa and Lucca are now just family estates of the
-Buonapartes. But I warn you, if you don’t tell me that this means war,
-if you still try to defend the infamies and horrors perpetrated by that
-Antichrist—I really believe he is Antichrist—I will have nothing
-more to do with you and you are no longer my friend, no longer my
-‘faithful slave,’ as you call yourself! But how do you do? I see I
-have frightened you—sit down and tell me all the news.”
 
-It was in July, 1805, and the speaker was the well-known Anna Pávlovna
-Schérer, maid of honor and favorite of the Empress Márya Fëdorovna.
-With these words she greeted Prince Vasíli Kurágin, a man of high
-rank and importance, who was the first to arrive at her reception. Anna
-Pávlovna had had a cough for some days. She was, as she said, suffering
-from la grippe; grippe being then a new word in St. Petersburg, used
-only by the elite.
+== Бытие ==
 
-All her invitations without exception, written in French, and delivered
-by a scarlet-liveried footman that morning, ran as follows:
+=== 1 ===
 
-“If you have nothing better to do, Count (or Prince), and if the
-prospect of spending an evening with a poor invalid is not too terrible,
-I shall be very charmed to see you tonight between 7 and 10—Annette
-Schérer.”
-
-“Heavens! what a virulent attack!” replied the prince, not in the
-least disconcerted by this reception. He had just entered, wearing an
-embroidered court uniform, knee breeches, and shoes, and had stars on
-his breast and a serene expression on his flat face. He spoke in that
-refined French in which our grandfathers not only spoke but thought, and
-with the gentle, patronizing intonation natural to a man of importance
-who had grown old in society and at court. He went up to Anna Pávlovna,
-kissed her hand, presenting to her his bald, scented, and shining head,
-and complacently seated himself on the sofa.
-
-“First of all, dear friend, tell me how you are. Set your friend’s
-mind at rest,” said he without altering his tone, beneath the
-politeness and affected sympathy of which indifference and even irony
-could be discerned.
-
-“Can one be well while suffering morally? Can one be calm in times
-like these if one has any feeling?” said Anna Pávlovna. “You are
-staying the whole evening, I hope?”
-
-“And the fete at the English ambassador’s? Today is Wednesday. I
-must put in an appearance there,” said the prince. “My daughter is
-coming for me to take me there.”
-
-“I thought today’s fete had been canceled. I confess all these
-festivities and fireworks are becoming wearisome.”
-
-“If they had known that you wished it, the entertainment would have
-been put off,” said the prince, who, like a wound-up clock, by force
-of habit said things he did not even wish to be believed.
-
-“Don’t tease! Well, and what has been decided about Novosíltsev’s
-dispatch? You know everything.”
+1 В начале сотворил Бог небо и землю.
+2 Земля же была безвидна и пуста, и тьма над бездною, и Дух Божий носился над водою.
+3 И сказал Бог: да будет свет. И стал свет.
+4 И увидел Бог свет, что он хорош, и отделил Бог свет от тьмы.
+5 И назвал Бог свет днем, а тьму ночью. И был вечер, и было утро: день один.
+6 И сказал Бог: да будет твердь посреди воды, и да отделяет она воду от воды. [И стало так.]
+7 И создал Бог твердь, и отделил воду, которая под твердью, от воды, которая над твердью. И стало так.
+8 И назвал Бог твердь небом. [И увидел Бог, что _это_ хорошо.] И был вечер, и было утро: день второй.
+9 И сказал Бог: да соберется вода, которая под небом, в одно место, и да явится суша. И стало так. [И собралась вода под небом в свои места, и явилась суша.]
+10 И назвал Бог сушу землею, а собрание вод назвал морями. И увидел Бог, что _это_ хорошо.
+11 И сказал Бог: да произрастит земля зелень, траву, сеющую семя [по роду и по подобию _ее,_ и] дерево плодовитое, приносящее по роду своему плод, в котором семя его на земле. И стало так.
+12 И произвела земля зелень, траву, сеющую семя по роду [и по подобию] ее, и дерево [плодовитое], приносящее плод, в котором семя его по роду его [на земле]. И увидел Бог, что _это_ хорошо.
+13 И был вечер, и было утро: день третий.
+14 И сказал Бог: да будут светила на тверди небесной [для освещения земли и] для отделения дня от ночи, и для знамений, и времен, и дней, и годов;
+15 и да будут они светильниками на тверди небесной, чтобы светить на землю. И стало так.
+16 И создал Бог два светила великие: светило большее, для управления днем, и светило меньшее, для управления ночью, и звезды;
+17 и поставил их Бог на тверди небесной, чтобы светить на землю,
+18 и управлять днем и ночью, и отделять свет от тьмы. И увидел Бог, что _это_ хорошо.
+19 И был вечер, и было утро: день четвёртый.
+20 И сказал Бог: да произведет вода пресмыкающихся, душу живую; и птицы да полетят над землею, по тверди небесной. [И стало так.]
+21 И сотворил Бог рыб больших и всякую душу животных пресмыкающихся, которых произвела вода, по роду их, и всякую птицу пернатую по роду ее. И увидел Бог, что _это_ хорошо.
+22 И благословил их Бог, говоря: плодитесь и размножайтесь, и наполняйте воды в морях, и птицы да размножаются на земле.
+23 И был вечер, и было утро: день пятый.
+24 И сказал Бог: да произведет земля душу живую по роду ее, скотов, и гадов, и зверей земных по роду их. И стало так.
+25 И создал Бог зверей земных по роду их, и скот по роду его, и всех гадов земных по роду их. И увидел Бог, что _это_ хорошо.
+26 И сказал Бог: сотворим человека по образу Нашему [и] по подобию Нашему, и да владычествуют они над рыбами морскими, и над птицами небесными, [и над зверями,] и над скотом, и над всею землею, и над всеми гадами, пресмыкающимися по земле.
+27 И сотворил Бог человека по образу Своему, по образу Божию сотворил его; мужчину и женщину сотворил их.
+28 И благословил их Бог, и сказал им Бог: плодитесь и размножайтесь, и наполняйте землю, и обладайте ею, и владычествуйте над рыбами морскими [и над зверями,] и над птицами небесными, [и над всяким скотом, и над всею землею,] и над всяким животным, пресмыкающимся по земле.
+29 И сказал Бог: вот, Я дал вам всякую траву, сеющую семя, какая есть на всей земле, и всякое дерево, у которого плод древесный, сеющий семя; -- вам _сие_ будет в пищу;
+30 а всем зверям земным, и всем птицам небесным, и всякому [гаду,] пресмыкающемуся по земле, в котором душа живая, _дал_ Я всю зелень травную в пищу. И стало так.
+31 И увидел Бог все, что Он создал, и вот, хорошо весьма. И был вечер, и было утро: день шестой.
